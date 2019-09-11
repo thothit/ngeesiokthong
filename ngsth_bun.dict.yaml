@@ -318,8 +318,6 @@ use_preset_vocabulary: true
 奮	hun3
 糞	hun3
 爋	hun3
-角	lut4
-𪠄	lut4
 不	put4
 扒	put4
 朳	put4
@@ -944,6 +942,7 @@ use_preset_vocabulary: true
 㓗	kiat4	1%
 䥛	kiat4
 㮮	kiat4
+桔	kiat4	1%
 拮	khiat4
 丩	khiat4
 詰	khiat4
@@ -1051,7 +1050,7 @@ use_preset_vocabulary: true
 填	thian5
 嗔	thian5
 闐	thian5
-謄	thian5
+謄	thian5	0.1
 瘨	thian5
 前	cian5
 歬	cian5	1%
@@ -5897,6 +5896,7 @@ use_preset_vocabulary: true
 筑	tiok4
 築	tiok4
 斸	tiok4
+斥	thiok4	0.1
 足	ciok4
 屬	ciok4
 柷	ciok4
@@ -5933,6 +5933,7 @@ use_preset_vocabulary: true
 蹜	siok4
 縮	siok4
 粟	siok4
+益	qiok4	0.1
 浞	chiok4
 促	chiok4
 哫	chiok4
@@ -6911,7 +6912,6 @@ use_preset_vocabulary: true
 敏	bin2
 閔	bin2
 憫	bin2
-閩	bin2
 愍	bin2
 泯	bin2
 湣	bin2
@@ -7121,6 +7121,7 @@ use_preset_vocabulary: true
 痻	bin5
 緡	bin5
 緍	bin5	1%
+閩	bin5
 銀	gin5
 珢	gin5
 垠	gin5
