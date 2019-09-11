@@ -9,7 +9,7 @@
 #
 ---
 name: ngsth_bun
-version: "2019.9.10"
+version: "2019.9.11"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -10578,11 +10578,11 @@ use_preset_vocabulary: true
 鐃	launn5
 呶	launn5
 怓	launn5
-矛	launn5
-茅	launn5
-蟊	launn5
-蝥	launn5
-鍪	launn5
+矛	baunn5
+茅	baunn5
+蟊	baunn5
+蝥	baunn5
+鍪	baunn5
 爻	gaunn5
 猇	gaunn5
 肴	gaunn5

@@ -79,7 +79,7 @@ speller:
     - abbrev/^(tsh).+$/$1/
     
 translator:
-  dictionary: Ngsth_bun
+  dictionary: ngsth_bun
   spelling_hints: 5
   preedit_format:
   comment_format: 
