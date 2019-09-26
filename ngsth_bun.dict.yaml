@@ -9,7 +9,7 @@
 #
 ---
 name: ngsth_bun
-version: "2019.9.11"
+version: "2019.9.26"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2505,7 +2505,7 @@ use_preset_vocabulary: true
 紡	hong2
 訪	hong2
 諷	hong2
-風	hong2
+風	hong2	0.1
 唪	hong2
 謊	hong2
 捧	hong2
@@ -4619,7 +4619,7 @@ use_preset_vocabulary: true
 軓	huan7
 𨊠	huan7	1%
 帆	huan7
-凡	huan7
+凡	huan7	0.1
 槵	huan7
 患	huan7
 飯	huan7
@@ -8323,12 +8323,11 @@ use_preset_vocabulary: true
 尻	khau1
 兜	tau1
 兠	tau1	1%
-扌兜	tau1	1%
-拋	tau1
-抛	tau1	1%
-泡	tau1
-胞	tau1
-櫇	tau1
+拋	phau1
+抛	phau1	1%
+泡	phau1
+胞	phau1
+櫇	phau1
 𣠜	cau1
 捎	sau1
 梢	sau1
@@ -10657,3 +10656,4 @@ use_preset_vocabulary: true
 #   詞語
 雅俗通
 十五音
+謝秀嵐
