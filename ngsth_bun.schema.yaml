@@ -3,14 +3,13 @@
 
 schema:
   schema_id: ngsth_bun
-  name: 雅俗通・文
-  version: "2019.9.10"
+  name: 雅俗通·文
+  version: "2021.3.21"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
   description: |
     基於《雅俗通》(Ngée-sio̍k-thong)所收紅字校增
-    十九世紀漳州文士讀音正音俗音訛音大賞
   dependencies:
     - luna_pinyin
 
@@ -18,8 +17,8 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
-  - name: half_shape
-    states: [ 全角, 半角 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
   - name: ascii_punct

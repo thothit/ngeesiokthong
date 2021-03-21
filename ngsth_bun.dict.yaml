@@ -1,7 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# ngsth_bun 雅俗通・文
+# ngsth_bun 雅俗通·文
 #
 #  東苑謝秀嵐 編輯
 #  後學 Thothit 整理
@@ -9,7 +9,7 @@
 #
 ---
 name: ngsth_bun
-version: "2019.9.26"
+version: "2021.3.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1625,7 +1625,7 @@ use_preset_vocabulary: true
 諉	qui2
 委	qui2
 虺	qui2
-禕	qui2
+褘	qui2
 頠	gui2
 隗	gui2
 姽	gui2
@@ -2164,6 +2164,7 @@ use_preset_vocabulary: true
 饅	ban5
 鰻	ban5
 蠻	ban5
+閩	ban5
 顏	gan5
 𦫨	gan5	1%
 言	gan5
@@ -5088,7 +5089,7 @@ use_preset_vocabulary: true
 狐	hou5
 弧	hou5
 瓠	hou5
-胡	hou5
+鬍	hou5
 路	lou7
 潞	lou7
 璐	lou7
@@ -5357,18 +5358,18 @@ use_preset_vocabulary: true
 渺	biau2
 緲	biau2
 淼	biau2
-杳	qiau2
+杳	biau2
 邈	biau2
 窔	biau2
 皛	biau2
-窅	qiau2
-㴭	qiau2
+窅	biau2
+㴭	biau2
 眇	biau2
 杪	biau2
 秒	biau2
 藐	biau2
-龖	tap4
-龘	tap4
+龖	biau2
+龘	biau2
 仯	biau2
 愀	chiau2
 眧	chiau2
@@ -5620,7 +5621,7 @@ use_preset_vocabulary: true
 䌡	lei2
 𣀂	lei2
 蠡	lei2
-啟	khei2	1%
+啟	khei2
 啓	khei2
 㒅	khei2
 綮	khei2
@@ -5714,7 +5715,7 @@ use_preset_vocabulary: true
 徯	hei5
 蹊	hei5
 攜	hei5
-㩗	hei5	1%
+携	hei5	1%
 畦	hei5
 奚	hei5
 兮	hei5
@@ -5760,6 +5761,7 @@ use_preset_vocabulary: true
 係	hei7
 禊	hei7
 毅	hei7
+𪵏	hei7
 𩜖	piong1
 恭	kiong1
 共	kiong1	1%
@@ -6428,7 +6430,7 @@ use_preset_vocabulary: true
 誐	go5
 訛	go5
 吪	go5	1%
-偽	go5	0.1
+偽	go5	1%
 譌	go5	1%
 鵝	go5
 鼇	go5
@@ -7121,7 +7123,6 @@ use_preset_vocabulary: true
 痻	bin5
 緡	bin5
 緍	bin5	1%
-閩	bin5
 銀	gin5
 珢	gin5
 垠	gin5
@@ -8508,19 +8509,19 @@ use_preset_vocabulary: true
 椰	qia5
 乜	bia5
 呀	gia5
-哋	tia5
-藉	cia5
-偌	jia5
-𧧏	jia5
-社	sia5
-射	sia5
-榭	sia5
-謝	sia5
-麝	sia5
-𥙭	sia5	1%
-夜	qia5
-敥	qia5
-也	qia5	0.1
+哋	tia7
+藉	cia7
+偌	jia7
+𧧏	jia7
+社	sia7
+射	sia7
+榭	sia7
+謝	sia7
+麝	sia7
+𥙭	sia7	1%
+夜	qia7
+敥	qia7
+也	qia7	0.1
 杯	pue1
 柸	pue1	1%
 桮	pue1	1%
@@ -8736,7 +8737,6 @@ use_preset_vocabulary: true
 艍	ku1
 鼄	tu1	1%
 蛛	tu1
-哹	phu1
 朱	cu1
 珠	cu1
 硃	cu1
@@ -10516,7 +10516,6 @@ use_preset_vocabulary: true
 腉	lainn5
 孻	lainn5
 䚑	bainn5
-倄	hainn5
 佴	lainn7
 奈	lainn7
 柰	lainn7

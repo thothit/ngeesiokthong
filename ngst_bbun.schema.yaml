@@ -3,15 +3,14 @@
 
 schema:
   schema_id: ngst_bbun
-  name: 雅俗通・文・迅
-  version: "2019.12.20"
+  name: 雅俗通·文·迅
+  version: "2021.3.21"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
   description: |
     類閩拼式
     基於《雅俗通》(Ngée-sio̍k-tong)所收紅字校增
-    十九世紀漳州文士讀音正音俗音訛音大賞
   dependencies:
     - luna_pinyin
 
@@ -357,26 +356,3 @@ recognizer:
   patterns:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$"
-
-#style:
-#  display_tray_icon: true
-#  font_point: 16
-#  fullscreen: false
-#  horizontal: false
-#  inline_preedit: false
-#  candidate_text_size: 20 #候選字號。原為22
-#  candidate_view_height: 22 #候選區高度
-#  layout: #懸浮窗口設置
-#    position: left_up #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0)
-#    min_length: 1 #最小詞長
-#    max_length: 10 #超過字數則換行
-#    sticky_lines: 8 #固頂行數
-#    max_entries: 8 #最大詞條數
-#    border: 1 #邊框寬度。原為2
-#    max_width: 300 #最大寬度，超過則自動換行。原為230
-#    max_height: 360 #最大高度。原為400
-#    margin_x: 2 #水平邊距。原為5
-#    margin_y: 2 #豎直邊距。原為5
-#    line_spacing_multiplier: 1 #候选詞的行間距(倍數)。原為1.2
-#    round_corner: 4 #窗口圓角。原為8
-
