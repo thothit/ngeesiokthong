@@ -4,12 +4,12 @@
 schema:
   schema_id: ngsth_bun
   name: 雅俗通·文
-  version: "2021.3.21"
+  version: "2024.5.4"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
   description: |
-    基於《雅俗通》(Ngée-sio̍k-thong)所收紅字校增
+    基於《雅俗通》(Ngée-sio̍k-thong) 所收紅字校增
   dependencies:
     - luna_pinyin
 
@@ -94,7 +94,7 @@ translator:
     - xform/;j/\[入;/
     - xform/;s/\[時;/
     - xform/;q/\[英;/
-    - xform/;b/\[文;/
+    - xform/;b/\[門;/
     - xform/;g/\[語;/
     - xform/;ch/\[出;/    
     - xform/;h/\[喜;/
@@ -153,7 +153,7 @@ translator:
     - xform/c/ts/
     #   「更」韻
     - xform/([^u])enn/$1eenn/
-    #   「文」「柳」「語」鼻化韻
+    #   「門」「柳」「語」鼻化韻
     - xform/b([aeiou]+)nn/m$1/
     - xform/l([aeiou]+)nn/n$1/
     - xform/g([aeiou]+)nn/ng$1/
@@ -221,7 +221,7 @@ reverse_lookup:
     - xform/;j/\[入;/
     - xform/;s/\[時;/
     - xform/;q/\[英;/
-    - xform/;b/\[文;/
+    - xform/;b/\[門;/
     - xform/;g/\[語;/
     - xform/;ch/\[出;/    
     - xform/;h/\[喜;/
@@ -280,7 +280,7 @@ reverse_lookup:
     - xform/c/ts/
     #   「更」韻
     - xform/(^u)enn/$1eenn/
-    #   「文」「柳」「語」鼻化韻
+    #   「門」「柳」「語」鼻化韻
     - xform/b([aeiou]+)nn/m$1/
     - xform/l([aeiou]+)nn/n$1/
     - xform/g([aeiou]+)nn/ng$1/
