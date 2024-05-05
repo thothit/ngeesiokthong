@@ -9,7 +9,7 @@
 #
 ---
 name: ngsth_bun
-version: "2024.5.4"
+version: "2024.5.6"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -82,8 +82,8 @@ use_preset_vocabulary: true
 飧	sun1
 飱	sun1
 槂	sun1
-温	qun1
 溫	qun1
+温	qun1
 氳	qun1
 熅	qun1
 瘟	qun1
@@ -1351,6 +1351,7 @@ use_preset_vocabulary: true
 侵	chim2
 鋟	chim2
 贂	chim2
+𣖽	chim2
 梫	chim2
 踸	chim2
 䫐	lim3
@@ -1384,7 +1385,7 @@ use_preset_vocabulary: true
 芨	khip4
 笈	khip4
 泣	khip4
-囚	tip4
+𡆣	tip4
 釞	tip4
 執	cip4
 𠌷	cip4
