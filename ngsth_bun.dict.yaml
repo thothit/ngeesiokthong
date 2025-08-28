@@ -9,7 +9,7 @@
 #
 ---
 name: ngsth_bun
-version: "2024.10.1"
+version: "2025.8.28"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -6359,7 +6359,7 @@ use_preset_vocabulary: true
 妥	tho2
 討	tho2
 左	co2
-	co2
+𠂇	co2
 早	co2
 蚤	co2
 𧎮	co2
