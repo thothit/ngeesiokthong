@@ -4,7 +4,7 @@
 schema:
   schema_id: ngsth_bun
   name: 雅俗通·文
-  version: "2024.5.4"
+  version: "2026.5.4"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
@@ -47,13 +47,17 @@ engine:
   filters:
     - simplifier
     - uniquifier
-  
+
+menu:
+  alternative_select_keys: "ASDFHJKL"
+  alternative_select_labels: [ A, S, D, F, H, J, K, L ]
+  page_size: 8
+
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: zyxwvutsrqponmlkjihgfedcba1234578
+  initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    #   去掉聲調
-    - derive/[1-8]//
     #   零聲母處理
     - derive/q//
     #   通配
@@ -68,15 +72,17 @@ speller:
     - xform/g(.+)nn/ng$1/
     - derive/([^blg])(.+)nn/$1$2/
     #   聲母簡拼
-    - abbrev/^([lpktcjsqbghmn])([^hsg]).+$/$1/
-    - abbrev/^(ph).+$/$1/
-    - abbrev/^(th).+$/$1/
-    - abbrev/^(kh).+$/$1/
-    - abbrev/^(ng).+$/$1/
-    - abbrev/^(ch).+$/$1/
-    - abbrev/^(ts).+$/$1/
-    - abbrev/^(tsh).+$/$1/
-    
+    - abbrev/^([lpktcjsqbghmn])([^hsg]).+(\d)$/$1$3/
+    - abbrev/^(ph).+(\d)$/$1$2/
+    - abbrev/^(th).+(\d)$/$1$2/
+    - abbrev/^(kh).+(\d)$/$1$2/
+    - abbrev/^(ng).+(\d)$/$1$2/
+    - abbrev/^(ch).+(\d)$/$1$2/
+    - abbrev/^(ts).+(\d)$/$1$2/
+    - abbrev/^(tsh).+(\d)$/$1$2/
+    #   去掉聲調
+    - derive/[1-8]//
+
 translator:
   dictionary: ngsth_bun
   spelling_hints: 5
@@ -94,7 +100,7 @@ translator:
     - xform/;j/\[入;/
     - xform/;s/\[時;/
     - xform/;q/\[英;/
-    - xform/;b/\[門;/
+    - xform/;b/\[文;/
     - xform/;g/\[語;/
     - xform/;ch/\[出;/    
     - xform/;h/\[喜;/
@@ -153,7 +159,7 @@ translator:
     - xform/c/ts/
     #   「更」韻
     - xform/([^u])enn/$1eenn/
-    #   「門」「柳」「語」鼻化韻
+    #   「文」「柳」「語」鼻化韻
     - xform/b([aeiou]+)nn/m$1/
     - xform/l([aeiou]+)nn/n$1/
     - xform/g([aeiou]+)nn/ng$1/
@@ -221,7 +227,7 @@ reverse_lookup:
     - xform/;j/\[入;/
     - xform/;s/\[時;/
     - xform/;q/\[英;/
-    - xform/;b/\[門;/
+    - xform/;b/\[文;/
     - xform/;g/\[語;/
     - xform/;ch/\[出;/    
     - xform/;h/\[喜;/
@@ -280,7 +286,7 @@ reverse_lookup:
     - xform/c/ts/
     #   「更」韻
     - xform/(^u)enn/$1eenn/
-    #   「門」「柳」「語」鼻化韻
+    #   「文」「柳」「語」鼻化韻
     - xform/b([aeiou]+)nn/m$1/
     - xform/l([aeiou]+)nn/n$1/
     - xform/g([aeiou]+)nn/ng$1/
